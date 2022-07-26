@@ -13,5 +13,9 @@ export default NextAuth({
             clientId: process.env.GITHUB_ID,
             clientSecret: process.env.GITHUB_SECRET
         })
-    ]
+    ],
+    secret: "XH6bp/TkLvnUkQiPDEZNyHc0CV+VV5RL/n+HdVHoHN0=",
+    session: {
+        strategy: 'jwt',
+    }
 })
