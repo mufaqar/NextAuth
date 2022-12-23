@@ -132,7 +132,12 @@ export default function Login() {
               className={styles.button_custom}
             >
               Sign In with Google{' '}
-              <Image src={'/assets/google.svg'} width="20" height={20}></Image>
+              <Image
+                src={'/assets/google.svg'}
+                width="20"
+                height={20}
+                alt=""
+              ></Image>
             </button>
           </div>
           <div className="input-button">
@@ -142,7 +147,12 @@ export default function Login() {
               className={styles.button_custom}
             >
               Sign In with Github{' '}
-              <Image src={'/assets/github.svg'} width={25} height={25}></Image>
+              <Image
+                src={'/assets/github.svg'}
+                width={25}
+                height={25}
+                alt=""
+              ></Image>
             </button>
           </div>
           <div className="input-button">
@@ -156,6 +166,7 @@ export default function Login() {
                 src={'/assets/facebook.svg'}
                 width={25}
                 height={25}
+                alt=""
               ></Image>
             </button>
           </div>
@@ -171,6 +182,7 @@ export default function Login() {
                 src={'/assets/facebook.svg'}
                 width={25}
                 height={25}
+                alt=""
               ></Image>
             </button>
           </div>
